@@ -1,0 +1,531 @@
+!DOCTYPE html
+html lang=en
+
+head
+    !-- basic --
+    meta charset=utf-8
+    meta http-equiv=X-UA-Compatible content=IE=edge
+    !-- mobile metas --
+    meta name=viewport content=width=device-width, initial-scale=1
+    meta name=viewport content=initial-scale=1, maximum-scale=1
+    !-- site metas --
+    titleSpicyotitle
+    meta name=keywords content=
+    meta name=description content=
+    meta name=author content=
+    !-- bootstrap css --
+    link rel=stylesheet href=cssbootstrap.min.css
+    !-- owl css --
+    link rel=stylesheet href=cssowl.carousel.min.css
+    !-- style css --
+    link rel=stylesheet href=cssstyle.css
+    !-- responsive--
+    link rel=stylesheet href=cssresponsive.css
+    !-- awesome fontfamily --
+    link rel=stylesheet href=httpscdnjs.cloudflare.comajaxlibsfont-awesome4.7.0cssfont-awesome.min.css
+    !--[if lt IE 9]
+      script src=httpsoss.maxcdn.comhtml5shiv3.7.3html5shiv.min.jsscript
+      script src=httpsoss.maxcdn.comrespond1.4.2respond.min.jsscript![endif]--
+head
+!-- body --
+
+body class=main-layout
+    !-- loader  --
+    div class=loader_bg
+        div class=loaderimg src=imagesloading.gif alt= div
+    div
+
+    div class=wrapper
+    !-- end loader --
+
+     div class=sidebar
+            !-- Sidebar  --
+            nav id=sidebar
+
+                div id=dismiss
+                    i class=fa fa-arrow-lefti
+                div
+
+                ul class=list-unstyled components
+
+                    li class=active
+                        a href=index.htmlHomea
+                    li
+                    li
+                        a href=about.htmlAbouta
+                    li
+                    li
+                        a href=recipe.htmlRecipea
+                    li
+                    li
+                        a href=blog.htmlBloga
+                    li
+                    li
+                        a href=contact.htmlContact Usa
+                    li
+                ul
+
+            nav
+        div
+
+    div id=content
+    !-- header --
+    header
+        div class=container-fluid
+            div class=row
+                div class=col-md-3
+                    div class=full
+                        a class=logo href=index.htmlimg src=imageslogo.png alt=# a
+                    div
+                div
+                div class=col-md-9
+                    div class=full
+                        div class=right_header_info
+                            ul
+                                li class=dinoneContact Us  img style=margin-right 15px;margin-left 15px; src=imagesphone_icon.png alt=#a href=#987-654-3210ali
+                                li class=dinoneimg style=margin-right 15px; src=imagesmail_icon.png alt=#a href=#demo@gmail.comali
+                                li class=dinoneimg style=margin-right 15px;height 21px;position relative;top -2px; src=imageslocation_icon.png alt=#a href=#104 New york , USAali
+                                li class=button_usera class=button active href=#Loginaa class=button href=#Registerali
+                                liimg style=margin-right 15px; src=imagessearch_icon.png alt=#li
+                                li
+                                    button type=button id=sidebarCollapse
+                                        img src=imagesmenu_icon.png alt=#
+                                    button
+                                li
+                            ul
+                        div
+                    div
+                div
+            div
+        div
+    header
+    !-- end header --
+    !-- start slider section --
+    div class=slider_section
+        div class=container
+            div class=row
+                div class=col-md-12
+                    div class=full
+                        div id=main_slider class=carousel vert slide data-ride=carousel data-interval=5000
+                            div class=carousel-inner
+                                div class=carousel-item active
+                                    div class=row
+                                        div class=col-md-5
+                                            div class=slider_cont
+                                                h3Discover RestaurantsbrThat deliver near Youh3
+                                                pIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.p
+                                                a class=main_bt_border href=#Order Nowa
+                                            div
+                                        div
+                                        div class=col-md-7
+                                            div class=slider_image full text_align_center
+                                                img class=img-responsive src=imagesburger_slide.png alt=# 
+                                            div
+                                        div
+                                    div
+                                div
+                                div class=carousel-item
+                                    div class=row
+                                        div class=col-md-5
+                                            div class=slider_cont
+                                                h3Discover RestaurantsbrThat deliver near Youh3
+                                                pIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.p
+                                                a class=main_bt_border href=#Order Nowa
+                                            div
+                                        div
+                                        div class=col-md-7 full text_align_center
+                                            div class=slider_image
+                                                img class=img-responsive src=imagesburger_slide.png alt=# 
+                                            div
+                                        div
+                                    div
+                                div
+                            div
+                            a class=carousel-control-prev href=#main_slider role=button data-slide=prev
+                                i class=fa fa-angle-upi
+                            a
+                            a class=carousel-control-next href=#main_slider role=button data-slide=next
+                                i class=fa fa-angle-downi
+                            a
+                        div
+                    div
+                div
+            div
+        div
+    div
+    !-- end slider section --
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+    !-- section --
+    section class=resip_section
+        div class=container
+            div class=row
+         div class=col-md-12
+       div class=ourheading
+    h2Our Recipesh2
+  div
+div    
+div class=container
+    div class=row
+        div class=col-md-12
+            div class=owl-carousel owl-theme
+
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs1.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Homemadeh3
+                        h4span class=theme_color$span10h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs2.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Noodlesh3
+                        h4span class=theme_color$span20h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs3.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Eggh3
+                        h4span class=theme_color$span30h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs4.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Sushi Dizzyh3
+                        h4span class=theme_color$span40h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs5.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3The Coffee Breakh3
+                        h4span class=theme_color$span50h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs1.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Homemadeh3
+                        h4span class=theme_color$span10h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs2.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Noodlesh3
+                        h4span class=theme_color$span20h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs3.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Eggh3
+                        h4span class=theme_color$span30h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs4.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3Sushi Dizzyh3
+                        h4span class=theme_color$span40h4
+                    div
+                div
+                div class=item
+                    div class=product_blog_img
+                        img src=imagesrs5.png alt=# 
+                    div
+                    div class=product_blog_cont
+                        h3The Coffee Breakh3
+                        h4span class=theme_color$span50h4
+                    div
+                div
+
+            div
+        div
+    div
+div
+div
+div
+section
+div class=bg_bg
+!-- about --
+div class=about
+    div class=container
+      div class=row
+         div class=col-md-12
+             div class=title
+                iimg src=imagestitle.png alt=#i
+                h2About Our Food & Restauranth2
+                spanIt is a long established fact that a reader will be distracted by the readable content of a
+                   br page when looking at its layout. The point of using Lorem
+                span
+             div
+          div
+       div
+       div class=row
+         div class=col-xl-6 col-lg-6 col-md-12 col-sm-12
+             div class=about_box
+                 h3Best Foodh3
+                 pContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscureContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard p
+                 a href=#Read More i class=fa fa-long-arrow-right aria-hidden=trueia
+             div
+         div
+          div class=col-xl-5 col-lg-5 col-md-10 col-sm-12 about_img_boxpdnt
+             div class=about_img
+                 figureimg src=imagesabout-img.jpg alt=#figure
+             div
+         div      
+       div 
+    div
+div
+!-- end about --
+
+!-- blog --
+div class=blog
+  div class=container
+    div class=row
+      div class=col-md-12
+        div class=title
+          iimg src=imagestitle.png alt=#i
+          h2Our Blogh2
+          spanwhen looking at its layout. The point of using Loremspan
+        div
+      div
+    div
+    div class=row
+      div class=col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom
+        div class=blog_box
+          div class=blog_img_box
+            figureimg src=imagesblog_img1.png alt=#
+             span02 FEB 2019span
+            figure
+          div
+          h3Spicy Bargerh3
+          pThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the p
+        div
+      div
+       div class=col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom
+        div class=blog_box
+          div class=blog_img_box
+            figureimg src=imagesblog_img2.png alt=#
+             span02 FEB 2019span
+            figure
+          div
+          h3Egg & Toshh3
+          pThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the p
+        div
+      div
+       div class=col-xl-4 col-lg-4 col-md-4 col-sm-12
+        div class=blog_box
+          div class=blog_img_box
+            figureimg src=imagesblog_img3.png alt=#
+             span02 FEB 2019span
+            figure
+          div
+          h3Pizzah3
+          pThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the p
+        div
+      div
+    div
+  div
+div
+!-- end blog --
+
+!-- Our Client --
+div class=Client
+  div class=container
+    div class=row
+      div class=col-md-12
+        div class=title
+          iimg src=imagestitle.png alt=#i
+          h2Our Clienth2
+        div
+      div
+    div
+    div class=row
+      div class=col-md-6 offset-md-3
+         div class=Client_box
+           img src=imagesclient.jpg alt=#
+           h3Roock Dueh3
+           pThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.p
+           iimg src=imagesclient_icon.png alt=#i
+         div
+      div
+    div
+  div
+div  
+!-- end Our Client --
+div
+    !-- footer --
+    fooetr
+        div class=footer
+            div class=container-fluid
+                div class=row
+                  div class= col-md-12
+                    h2Request  Astrong class=white Call  Backstrongh2
+                  div
+                    div class=col-xl-6 col-lg-6 col-md-6 col-sm-12
+                      
+                        form class=main_form
+                            div class=row
+                             
+                                div class=col-xl-12 col-lg-12 col-md-12 col-sm-12
+                                    input class=form-control placeholder=Name type=text name=Name
+                                div
+                                div class=col-xl-12 col-lg-12 col-md-12 col-sm-12
+                                    input class=form-control placeholder=Email type=text name=Email
+                                div
+                                div class=col-xl-12 col-lg-12 col-md-12 col-sm-12
+                                    input class=form-control placeholder=Phone type=text name=Phone
+                                div
+                                div class=col-xl-12 col-lg-12 col-md-12 col-sm-12
+                                    textarea class=textarea placeholder=Message type=text name=Messagetextarea
+                                div
+                                div class=col-xl-12 col-lg-12 col-md-12 col-sm-12
+                                    button class=sendSendbutton
+                                div
+                            div
+                        form
+                    div
+                    div class=col-xl-6 col-lg-6 col-md-6 col-sm-12
+                        div class=img-box
+                            figureimg src=imagesimg.jpg alt=img figure
+                        div
+                    div
+                div
+                div class=row
+                    div class=col-md-12
+                        div class=footer_logo
+                          a href=index.htmlimg src=imageslogo1.jpg alt=logo a
+                        div
+                    div
+                    div class=col-md-12
+                        ul class=lik
+                            li class=active a href=index.htmlHomeali
+                            li a href=about.htmlAboutali
+                            li a href=recipe.htmlRecipeali
+                            li a href=blog.htmlBlogali
+                            li a href=contact.htmlContact usali
+                        ul
+                    div
+                    div class=col-md-12
+                        div class=new
+                            h3Newsletterh3
+                            form class=newtetter
+                                input class=tetter placeholder=Your email type=text name=Your email
+                                button class=submitSubscribebutton
+                            form
+                        div
+                    div
+                div
+            div
+            div class=copyright
+                div class=container
+                    p©️ 2019 All Rights Reserved. Design bya href=httpshtml.design Free Html Templatesap
+                div
+            div
+        div
+    fooetr
+    !-- end footer --
+
+    div
+    div
+    div class=overlaydiv
+    !-- Javascript files--
+    script src=jsjquery.min.jsscript
+    script src=jspopper.min.jsscript
+    script src=jsbootstrap.bundle.min.jsscript
+    script src=jsowl.carousel.min.jsscript
+    script src=jscustom.jsscript
+     script src=jsjquery.mCustomScrollbar.concat.min.jsscript
+    
+     script src=jsjquery-3.0.0.min.jsscript
+   script type=textjavascript
+        $(document).ready(function() {
+            $(#sidebar).mCustomScrollbar({
+                theme minimal
+            });
+
+            $('#dismiss, .overlay').on('click', function() {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    script
+
+    style
+    #owl-demo .item{
+        margin 3px;
+    }
+    #owl-demo .item img{
+        display block;
+        width 100%;
+        height auto;
+    }
+    style
+
+     
+      script
+         $(document).ready(function() {
+           var owl = $('.owl-carousel');
+           owl.owlCarousel({
+             margin 10,
+             nav true,
+             loop true,
+             responsive {
+               0 {
+                 items 1
+               },
+               600 {
+                 items 2
+               },
+               1000 {
+                 items 5
+               }
+             }
+           })
+         })
+      script
+
+body
+
+html
